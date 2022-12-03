@@ -1,0 +1,48 @@
+.stepper.timeline li .step-content.hoverable {
+	width: 40%;
+}
+
+.stepper-vertical li .step-content {
+	padding: 0.5rem !important;
+}
+
+.p-4 {
+	padding: 0 !important;
+}
+
+div .align-items-center {
+	display: none !important;
+}
+
+@media screen and (max-width: 1030px) {
+	.stepper.timeline li .step-content.hoverable {
+		width: 80%;
+	}
+}
+
+/* The styling part for the Summary component */
+.flex-container {
+	display: flex;
+	justify-content: space-between;
+	flex-direction: column;
+}
+
+.flex-container > .sub-container {
+	flex-grow: 5;
+	margin: 10px;
+}
+
+.flex-container > .sub-container > div {
+	display: flex;
+	justify-content: space-between;
+}
+
+.flex-container > .sub-container > div:nth-child(even) {
+	background-color: lightgray;
+}
+
+@media (max-width: 1165px) {
+	.flex-container > .sub-container > div {
+		flex-direction: column;
+	}
+}

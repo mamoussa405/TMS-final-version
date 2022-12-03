@@ -1,0 +1,175 @@
+
+/**
+ * This object { gatherInputs } is the holder of
+ * the required information in the Gather Inputs step
+ * (Initiate the request phase)
+ */
+
+const gatherInputs = {
+	projectName: {
+		name: 'projectName',
+		label: '',
+		type: 'string',
+		inputAdornment: false,
+		multiline: false,
+		disabled: true,
+		required: false,
+	},
+	projectNumber: {
+		name: 'projectNumber',
+		label: '',
+		type: 'string',
+		inputAdornment: false,
+		multiline: false,
+		disabled: true,
+		required: false,
+	},
+	revisionNo: {
+		name: 'revisionNo',
+		placeholder: 'Required*',
+		type: 'number',
+		inputAdornment: false,
+		multiline: false,
+		disabled: false,
+		required: true,
+	},
+	office: {
+		name: 'office',
+		label: '',
+		type: 'string',
+		inputAdornment: false,
+		multiline: false,
+		disabled: true,
+		required: false,
+	},
+	framework: {
+		name: 'framework',
+		label: 'Framework',
+		items: [
+			{
+				name: 'FSA',
+				value: 'FSA',
+			},
+			{
+				name: 'FSA Agency',
+				value: 'FSA Agency',
+			},
+		],
+	},
+	expenses: {
+		WBSTaskCode: {
+			name: 'WBSTaskCode',
+			label: 'WBS Task Code',
+			type: 'string',
+			inputAdornment: false,
+			multiline: false,
+			disabled: false,
+			required: false,
+		},
+		expenses: {
+			name: 'expenses',
+			label: 'Expenses',
+			type: 'number',
+			inputAdornment: false,
+			multiline: false,
+			disabled: false,
+			required: false,
+		},
+	},
+	multipliers: {
+		MT_COST: {
+			name: 'multipliers_MT_COST',
+			label: 'MT COST',
+			type: 'number',
+			inputAdornment: false,
+			multiline: false,
+			disabled: true,
+			required: false,
+		},
+		ODC: {
+			name: 'multipliers_ODC',
+			label: 'ODC',
+			type: 'number',
+			inputAdornment: false,
+			multiline: false,
+			disabled: true,
+			required: false,
+		},
+		LDC: {
+			name: 'multipliers_LDC',
+			label: 'LDC',
+			type: 'number',
+			inputAdornment: false,
+			multiline: false,
+			disabled: true,
+			required: false,
+		},
+		ADC: {
+			name: 'multipliers_ADC',
+			label: 'ADC',
+			type: 'number',
+			inputAdornment: false,
+			multiline: false,
+			disabled: true,
+			required: false,
+		},
+		EDC: {
+			name: 'multipliers_EDC',
+			label: 'EDC',
+			type: 'number',
+			inputAdornment: false,
+			multiline: false,
+			disabled: true,
+			required: false,
+		},
+	},
+	multipliersFSAAgency: {
+		MT_COST: {
+			name: 'multipliersFSAAgency_MT_COST',
+			label: 'MT COST',
+			type: 'number',
+			inputAdornment: false,
+			multiline: false,
+			disabled: true,
+			required: false,
+		},
+		ODC: {
+			name: 'multipliersFSAAgency_ODC',
+			label: 'ODC',
+			type: 'number',
+			inputAdornment: false,
+			multiline: false,
+			disabled: true,
+			required: false,
+		},
+		LDC: {
+			name: 'multipliersFSAAgency_LDC',
+			label: 'LDC',
+			type: 'number',
+			inputAdornment: false,
+			multiline: false,
+			disabled: true,
+			required: false,
+		},
+		ADC: {
+			name: 'multipliersFSAAgency_ADC',
+			label: 'ADC',
+			type: 'number',
+			inputAdornment: false,
+			multiline: false,
+			disabled: true,
+			required: false,
+		},
+		EDC: {
+			name: 'multipliersFSAAgency_EDC',
+			label: 'EDC',
+			type: 'number',
+			inputAdornment: false,
+			multiline: false,
+			disabled: true,
+			required: false,
+		},
+	},
+};
+
+export default gatherInputs;

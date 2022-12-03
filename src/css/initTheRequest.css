@@ -1,0 +1,38 @@
+/*
+	This file will contain all the stylings for the
+	Initiate the request phase pages.
+ */
+
+ /* 
+	This styling part is for the buttons div in the Resources
+	page
+ */
+.resources-buttons-div {
+	display: flex;
+	justify-content: space-between;
+	max-width: 75rem;
+	margin-top: 1rem;
+	margin-bottom: 5rem;
+}
+
+/* 
+	This styling part is for the navigation buttons div. i.e. Next and Back buttons
+*/
+.navigation-buttons-div {
+	display: flex;
+	justify-content: space-between;
+	max-width: 75rem;
+	margin-top: 5rem;
+	margin-bottom: 1rem;
+}
+
+/* 
+	This styling part is for the dropzone in the Form Uplaod step
+ */
+.formupload-dropzone {
+	background-color: lightgrey;
+	border: 3px dashed black;
+	border-radius: 10px;
+	padding: 10px;
+	align-content: center;
+};

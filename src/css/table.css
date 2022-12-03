@@ -1,0 +1,106 @@
+.inactive-status-indicator {
+	height: 10px;
+	width: 10px;
+	border-radius: 50%;
+	color: orangered;
+}
+
+.active-status-indicator {
+	height: 10px;
+	width: 10px;
+	border-radius: 50%;
+	color: limegreen;
+}
+
+.label_style {
+	font-weight: 600;
+	font-size: 20px;
+}
+
+.MTableHeader-header-13 {
+	color: white !important;
+	background-color: #26327f !important;
+}
+.MuiTableSortLabel-root.MuiTableSortLabel-active {
+	color: white !important;
+}
+.MuiTableSortLabel-active .MuiTableSortLabel-icon {
+	color: white !important;
+}
+.MuiButtonBase-root.MuiTableSortLabel-root::hover {
+	color: white !important;
+}
+.MuiTableSortLabel-icon {
+	color: white !important;
+}
+[data-rbd-drag-handle-context-id='1'] {
+	color: white !important;
+}
+.inner_space {
+	padding: 20px;
+	/* background-color: white; */
+	box-shadow: 1px 6px 10px rgba(0, 0, 0, 0.12);
+}
+
+.MTableToolbar-title-9 {
+	display: none;
+}
+.MuiTableRow-head {
+	box-shadow: 0 1px 11px 6px rgba(0, 0, 0, 0.12);
+	height: 4em;
+}
+hr {
+	border-top: 2px solid #c1c1c1;
+	margin-bottom: 1rem;
+}
+.MuiTableSortLabel-root {
+	font-weight: 600;
+}
+.MuiTableCell-paddingCheckbox:last-child {
+	padding-right: 16px !important;
+	width: 13rem !important;
+}
+.MuiTableCell-paddingNone div {
+	display: block !important;
+	text-align: center;
+}
+/*.MuiToolbar-gutters {
+	padding-left: 8px !important;
+}*/
+
+.MuiCheckbox-colorSecondary.Mui-checked {
+	color: #757575 !important;
+}
+.Component-paginationSelectRoot-4 {
+	position: absolute !important;
+}
+.MuiTableCell-root {
+	padding: 5px 0px 5px 10px !important;
+}
+
+.MuiTableCell-head {
+	background-color: #26327f !important;
+	color: white !important;
+}
+.MTableToolbar-actions-21 {
+	color: black !important;
+}
+
+.MuiGrid-spacing-xs-4 {
+	margin: 0px 0px 0px -14px !important;
+}
+
+.MuiTab-textColorPrimary.Mui-selected {
+	color: #26327f !important;
+}
+
+.PrivateTabIndicator-colorPrimary-16 {
+	background-color: #26327f !important;
+}
+.MuiTableCell-root {
+	font-family: Lato !important;
+	font-size: 0.75rem !important;
+}
+.MuiTableCell-stickyHeader {
+	font-weight: bold !important;
+}

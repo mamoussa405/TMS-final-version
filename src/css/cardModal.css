@@ -1,0 +1,54 @@
+/* 
+	This file contains the styling sheet from the card
+	Modal
+	@see src/css/cardModal.css
+ */
+
+ /* This part is for the full card body */
+.card-modal {
+	/* Style to center the card */
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	width: 50%;
+	/* Style to make the card render over all
+	component */
+	z-index: 1000;
+	min-width: 250px;
+}
+
+/* This part is for the card content */
+.card-modal > .content {
+	/* Style to make the card scrollable
+	when the content overflows */
+	overflow-y: auto;
+	max-height: 500px;
+	min-width: 250px;
+}
+
+/* This part is for the shadow part, the shadow part
+is the div that makes a shadow on the page when the
+modal opens */
+.shadow-container {
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background-color: rgba(0, 0, 0, .7);
+	z-index: 1000;
+}
+
+.card-modal > .card-title1 {
+	padding: 16px 0 0 14px;
+}
+
+.card-modal > .card-title2 {
+	display: flex;
+	justify-content: space-between;
+}
+
+.card-modal > .card-title2 > .typography {
+	margin-left: 10px;
+}
